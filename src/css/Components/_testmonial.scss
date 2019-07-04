@@ -1,0 +1,89 @@
+.testmonial{
+    background: #f8f8f8;
+    overflow: hidden;
+
+    .row{
+
+        .col-12{
+
+            h2{
+                color: #022752;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 1.3em;
+            }
+            p{
+                color: #555555;
+                font-size: 17px;
+                line-height: 1.7em;
+            }
+        }
+    }
+    .container{
+        .col-md-4{
+            img{
+                border: 1px solid;
+            }
+            p{
+                color: #555555 !important;
+                font-size: 17px !important;
+                line-height: 1.7em;
+            }
+            .font-weight-bold{
+                font-size: 13px !important;
+                line-height: 1.7em;
+            }
+        }
+    }
+    hr{
+        width: 93% !important;
+        margin: 25px auto 5px;
+    }
+    .row{
+        .col-md-5{
+            form{
+                h3{
+                    color: #3e3e3e;
+                    font-size: 21px !important;
+                    // max-width: 300px;
+                    font-weight: 600;
+                    line-height: 1.7em;
+                }
+                input[type = "text"] {
+                    width: 48%;
+                    border-radius: 5px;
+                    font-size: 12px !important;
+                    color: gray !important;
+                }
+                input[type = "email"] {
+                    width: 100%;
+                    font-size: 12px !important;
+                    border-radius: 5px;
+                }
+                select{
+                    color: gray;
+                    width: 100%;
+                    font-size: 12px;
+                    border-radius: 5px;
+                }
+                button{
+                    background: #00b77e;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        .col-md-7{
+            .test-1{
+                font-weight: 600;
+                line-height: 1.7em;
+                font-size: 17px;
+                color: #022752;
+            }
+            .test-2{
+                font-size: 17px;
+                line-height: 1.7em;
+                color: #fff;
+            }
+        }
+    }
+}

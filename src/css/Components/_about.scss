@@ -1,0 +1,56 @@
+.about{
+    background: #f8f8f8;
+
+    .row{
+
+        .col{
+
+            h1{
+                color: #022752 !important;
+            }
+        }
+    }
+    .row{
+        .col-md-6{
+            p{
+                font-size: 16px !important;
+                line-height: 1.7em !important;
+                font-weight: 500;
+                color: #555555;
+            }
+        }
+    }
+    .about-2{
+        background: #f2f2f2;
+
+        .row{
+
+            .col-12{
+
+                .offer{
+                    color: #022752;
+                }
+            }
+        }
+        .row{
+            .col-md-4{
+                div{
+                    h3{
+                        color: #142f90;
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                    img{
+                        width: 32px;
+                        height: 17px;
+                    }
+                }
+                p{
+                    color: #3f3f3f;
+                    font-size: 17px;
+                    line-height: 1.7em;
+                }
+            }
+        }
+    }
+}

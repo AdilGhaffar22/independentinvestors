@@ -1,0 +1,27 @@
+@import "./Components/variables";
+@import "./Components/nav";
+@import "./Components/about";
+@import "./Components/header";
+@import "./Components/offer";
+@import "./Components/testmonial";
+@import "./Components/footer";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+body{
+  font-family: Arial , "Helvetica Neue", Helvetica, Gotham, sans-serif !important;
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.7em;
+  font-weight: 400;
+  background: #ffffff;
+}
+html{
+  scroll-behavior: smooth;
+}
